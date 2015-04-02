@@ -100,3 +100,8 @@ stakeholders.
 
 ```
 
+##9.Acompanhamento do Projeto
+```
+O acompanhamento do grupo será feito, em sua maioria, pelo Pivotal Tracker e as reuniões ocorreram pessoalmente, em local a
+definir, ou através de ferramentas online como o Facebook, Skype, http://appear.in e por e-mail.
+```
