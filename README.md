@@ -1,8 +1,8 @@
 #Estude+
 
 
-####Nosso Site(Temporário)
-[Estude+](http://ylm492.wix.com/estudemais)
+####Nosso Site(Github Pages)
+[Estude+](http://ufpe.github.io/oxam)
 
 ####Grupo:
 
