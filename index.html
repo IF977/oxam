@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Estude+ by UFPE</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Estude+</h1>
+        <h2>O projeto &quot;Estude+&quot; é uma ferramenta de acompanhamento escolar online utilizado como tema na disciplina de Engenharia de Software (IF977) do curso de Sistemas de Informação da UFPE.</h2>
+        <a href="https://github.com/UFPE/oxam" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a id="estude" class="anchor" href="#estude" aria-hidden="true"><span class="octicon octicon-link"></span></a>Estude+</h1>
+
+<h2>
+<a id="grupo" class="anchor" href="#grupo" aria-hidden="true"><span class="octicon octicon-link"></span></a>Grupo:</h2>
+
+<ul>
+<li>Alex Paulo</li>
+<li>Carlos Henrique</li>
+<li>Karla Thais</li>
+<li>Tulio Siqueira</li>
+<li>Ygo Leite</li>
+</ul>
+
+<h2>
+<a id="1-introdução" class="anchor" href="#1-introdu%C3%A7%C3%A3o" aria-hidden="true"><span class="octicon octicon-link"></span></a>1. Introdução</h2>
+
+<p>Este documento tem como objetivo especificar o sistema “Estude+”, oferecendo um maior entendimento aos Stakeholders, tanto quanto ao contexto do software a ser desenvolvido quanto ao desenvolvimento da solução em si.</p>
+
+<h2>
+<a id="2-justificativa" class="anchor" href="#2-justificativa" aria-hidden="true"><span class="octicon octicon-link"></span></a>2. Justificativa</h2>
+
+<p>Foi notando a falta de uma plataforma online capaz de integrar alunos, monitores, professores e suas principais áreas de interesse que o projeto Estude+ nasceu. O Estude+ é uma plataforma multidisciplinar de acompanhamento extraclasse que visa à elaboração de listas e grupos de estudos online, tendo como principal foco a maximização da curva de aprendizagem, o aprofundamento do conhecimento e o intercâmbio entre professores, monitores e alunos.</p>
+
+<h2>
+<a id="3-descrição" class="anchor" href="#3-descri%C3%A7%C3%A3o" aria-hidden="true"><span class="octicon octicon-link"></span></a>3. Descrição</h2>
+
+<h3>
+<a id="31-objetivo-do-projeto" class="anchor" href="#31-objetivo-do-projeto" aria-hidden="true"><span class="octicon octicon-link"></span></a>3.1. Objetivo do Projeto</h3>
+
+<p>Elaboração de uma plataforma online fluida e intuitiva onde professores possam disponibilizar questões, ou usar questões já existentes em nosso banco de questões, de acordo com a série de seus alunos, com os assuntos vivenciados em sala de aula e com os assuntos de auto interesse. Possibilitando também o acompanhamento por monitores, designados pelos professores, para pequenos grupos de estudo e relatórios de desempenho dos alunos e dos próprios professores em si.</p>
+
+<h3>
+<a id="32-objetivo-do-projeto" class="anchor" href="#32-objetivo-do-projeto" aria-hidden="true"><span class="octicon octicon-link"></span></a>3.2. Objetivo do Projeto</h3>
+
+<p>O Estude+ irá funcionar por meio de um portal online (website), onde professores, alunos e monitores, deverão realizar um cadastro para começar a usufruir das funcionalidades propostas pela solução. Todo o sistema será acessado via browser, onde os usuários cadastrados poderão acompanhar seus desempenhos nas mais diversas áreas de estudos, criar grupos e listas de exercícios (opção associada a perfis específicos), e extrair relatórios estatísticos a respeito de grupos ou áreas de estudos específicas.</p>
+
+<h3>
+<a id="33-marcos" class="anchor" href="#33-marcos" aria-hidden="true"><span class="octicon octicon-link"></span></a>3.3. Marcos</h3>
+
+<table>
+<thead>
+<tr>
+<th align="center">Marcos</th>
+<th align="left">Entregas</th>
+<th align="center">Data</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Kick Off</td>
+<td align="left">Project Charter e Infraestrutura</td>
+<td align="center">31/03</td>
+</tr>
+<tr>
+<td align="center">Inicialização I</td>
+<td align="left"><ul>
+<li>Lista de itens de trabalho cadastrados no Pivotal Tracker;</li>
+<li>Identificação da lista de riscos inicial;</li>
+<li>Planejamento da iteração que se inicia (objetivo: levantamento inicial dos requisitos/visão) identificado no PivotaTracker</li>
+</ul></td>
+<td align="center">20/04</td>
+</tr>
+<tr>
+<td align="center">Inicialização II</td>
+<td align="left"><ul>
+<li>Revisão da Iteração anterior e aplicação das correções;</li>  <li>lista de itens de trabalho revisados no Pivotal Tracker;</li>
+<li>Plano da Iteração que se inicia (objetivo: detalhamento e priorização dos requisitos/casos de uso + desenvolvimento do projeto de testes de sistema/aceitação);</li>
+<li> levantamento dos requisitos como histórias do usuário;</li>
+<li>Levantamento dos casos de uso</li>
+</ul></td>
+<td align="center">11/05</td>
+</tr>
+<tr>
+<td align="center">Elaboração</td>
+<td align="left"><ul>
+<li>Revisão da Iteração anterior e aplicação das correções;</li>
+<li>Especificação de casos de uso e diagramas de sequência;</li>
+<li>Plano e projeto de testes de sistemas/aceitação (BDD e TDD);</li>
+<li>Planejamento da Iteração que se inicia (objetivo: definição da análise e projeto + implementação e casos de testes de 50% dos requisitos priorizados)</li>
+</ul></td>
+<td align="center">08/06</td>
+</tr>
+<tr>
+<td align="center">Construção</td>
+<td align="left"><ul>
+<li>Documentos da iteração anterior revisados;</li>
+<li>Plano da iteração que se inicia (objetivo: implementação e testes de 100% dos requisitos priorizados);</li>
+<li>Entrega do produto com os 50% dos requisitos que foram priorizados (implementados e testados).</li>
+</ul></td>
+<td align="center">30/06</td>
+</tr>
+</tbody>
+</table>
+
+<h2>
+<a id="4designação-do-gerente-do-projeto" class="anchor" href="#4designa%C3%A7%C3%A3o-do-gerente-do-projeto" aria-hidden="true"><span class="octicon octicon-link"></span></a>4.Designação do Gerente do Projeto</h2>
+
+<p>O papel de gerente de projeto será exercido por Ygo Leite, onde estará estipulando e cobrando as entregas, definindo metas e mantendo o foco decorrer de todo o processo de desenvolvimento da solução, além de definir estratégias e objetivos junto com o grupo. É também de responsabilidade do gerente de projetos viabilizar a comunicação entre os membros da equipe e outros stakeholders.</p>
+
+<h2>
+<a id="5requisitos-de-alto-nível" class="anchor" href="#5requisitos-de-alto-n%C3%ADvel" aria-hidden="true"><span class="octicon octicon-link"></span></a>5.Requisitos de Alto Nível</h2>
+
+<pre><code>1. Manter o portal online a maior parte do tempo possível.
+2. Cadastro de usuários por perfil específico (Professor, aluno/estudante, monitor).
+3. Possibilidade de cadastro de Instituições de ensino (mediante estudo de viabilidade).
+4. Portal (website), simples e de fácil navegação por qualquer tipo de usuário.
+5. Cadastro e manutenção do banco de questões online.
+</code></pre>
+
+<h2>
+<a id="6riscos-de-alto-nível" class="anchor" href="#6riscos-de-alto-n%C3%ADvel" aria-hidden="true"><span class="octicon octicon-link"></span></a>6.Riscos de Alto Nível</h2>
+
+<pre><code>1. Falta de atualização dos dados.
+2. Falta de comunicação entre os desenvolvedores da solução.
+3. Falta de experiência com a linguagem adotada para o desenvolvimento da solução.
+4. Sobrecarga de tarefas diretamente associadas a comunicação e ao comprometimento da equipe. 
+5. Sobrecarga de demanda pelos Stakeholders (Correções e modificações excessivas no escopo)
+
+</code></pre>
+
+<h2>
+<a id="7premissas" class="anchor" href="#7premissas" aria-hidden="true"><span class="octicon octicon-link"></span></a>7.Premissas</h2>
+
+<pre><code>1. Será feito um desenvolvimento ágil tendo como base o Scrum;
+2. Os feedbacks internos serão diários;
+3. Os feedbacks externos terão prazo máximo de três dias;
+4. Distribuição de tarefas por demanda;
+5. Sprints semanais;
+6. Reuniões de fechamento e planejamento de Sprint, para discutir o que foi feito, o que se vai fazer e também possíveis variações no escopo do projeto;
+7. Pequenas reuniões diárias (duração max. 15min)
+</code></pre>
+
+<h2>
+<a id="8restrições" class="anchor" href="#8restri%C3%A7%C3%B5es" aria-hidden="true"><span class="octicon octicon-link"></span></a>8.Restrições</h2>
+
+<pre><code>1. Deverá ser usada, somente,  a linguagem Ruby e o framework Rails;
+2. Os membros da equipe deverão ter conhecimento intermediário na linguagem;
+3. Conhecimento em HTML e CSS
+4. Horário para conseguir alinhar todos os membros em reuniões;
+</code></pre>
+
+<h2>
+<a id="9acompanhamento-do-projeto" class="anchor" href="#9acompanhamento-do-projeto" aria-hidden="true"><span class="octicon octicon-link"></span></a>9.Acompanhamento do Projeto</h2>
+
+<p>O acompanhamento do grupo será feito, em sua maioria, pelo Pivotal Tracker e as reuniões ocorreram pessoalmente, em local a definir, ou através de ferramentas online como o Facebook, Skype, <a href="http://appear.in">http://appear.in</a> e por e-mail.</p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/UFPE/oxam/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/UFPE/oxam/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/UFPE/oxam"></a> is maintained by <a href="https://github.com/UFPE">UFPE</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+            <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-61528531-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
