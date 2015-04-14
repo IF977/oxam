@@ -34,15 +34,15 @@ Ygo Leite
 ## 3. Descrição 
   
     
-###3.1. Objetivo do Projeto 
+###3.1. Escopo 
     
     
   ```
-      Elaboração de uma plataforma online fluida e intuitiva onde professores possam disponibilizar questões, ou usar
-      questões já existentes em nosso banco de questões, de acordo com a série de seus alunos, com os assuntos vivenciados em
-      sala de aula e com os assuntos de auto interesse. Possibilitando também o acompanhamento por monitores, designados
-      pelos professores, para pequenos grupos de estudo e relatórios de desempenho dos alunos e dos próprios professores em
-      si.
+    O Estude+ irá funcionar por meio de um portal online (website), onde professores, alunos e monitores, deverão realizar um
+    cadastro para começar a usufruir das funcionalidades propostas pela solução. Todo o sistema será acessado via browser,
+    onde os usuários cadastrados poderão acompanhar seus desempenhos nas mais diversas áreas de estudos, criar grupos e
+    listas de exercícios (opção associada a perfis específicos), e extrair relatórios estatísticos a respeito de grupos ou
+    áreas de estudos específicas.  
   ```
    
    
@@ -50,11 +50,11 @@ Ygo Leite
    
    
   ```
-    O Estude+ irá funcionar por meio de um portal online (website), onde professores, alunos e monitores, deverão realizar um
-    cadastro para começar a usufruir das funcionalidades propostas pela solução. Todo o sistema será acessado via browser,
-    onde os usuários cadastrados poderão acompanhar seus desempenhos nas mais diversas áreas de estudos, criar grupos e
-    listas de exercícios (opção associada a perfis específicos), e extrair relatórios estatísticos a respeito de grupos ou
-    áreas de estudos específicas.
+    Elaboração de uma plataforma online fluida e intuitiva onde professores possam disponibilizar questões, ou usar
+      questões já existentes em nosso banco de questões, de acordo com a série de seus alunos, com os assuntos vivenciados em
+      sala de aula e com os assuntos de auto interesse. Possibilitando também o acompanhamento por monitores, designados
+      pelos professores, para pequenos grupos de estudo e relatórios de desempenho dos alunos e dos próprios professores em
+      si.
   ```
     
   
@@ -63,10 +63,10 @@ Ygo Leite
 |Marcos|Entregas|Data|
 |:---------------------:|:---------------------|:---------------------:|
 | Kick Off | Project Charter e Infraestrutura | 31/03 |
-| Inicialização I |<ul><li>Lista de itens de trabalho cadastrados no Pivotal Tracker;</li><li>Identificação da lista de riscos inicial;</li><li>Planejamento da iteração que se inicia (objetivo: levantamento inicial dos requisitos/visão) identificado no PivotaTracker</li></ul> | 20/04 |
-| Inicialização II |<ul><li>Revisão da Iteração anterior e aplicação das correções;</li>  <li>lista de itens de trabalho revisados no Pivotal Tracker;</li><li>Plano da Iteração que se inicia (objetivo: detalhamento e priorização dos requisitos/casos de uso + desenvolvimento do projeto de testes de sistema/aceitação);</li><li> levantamento dos requisitos como histórias do usuário;</li><li>Levantamento dos casos de uso</li></ul>| 11/05 |
-|Elaboração|<ul><li>Revisão da Iteração anterior e aplicação das correções;</li><li>Especificação de casos de uso e diagramas de sequência;</li><li>Plano e projeto de testes de sistemas/aceitação (BDD e TDD);</li><li>Planejamento da Iteração que se inicia (objetivo: definição da análise e projeto + implementação e casos de testes de 50% dos requisitos priorizados)</li></ul>| 08/06 |
-|Construção|<ul><li>Documentos da iteração anterior revisados;</li><li>Plano da iteração que se inicia (objetivo: implementação e testes de 100% dos requisitos priorizados);</li><li>Entrega do produto com os 50% dos requisitos que foram priorizados (implementados e testados).</li></ul> | 30/06 |
+| Inicialização I |<ul><li>Realizar Cadastro de itens no PivotalTracker;</li><li>Identificar Riscos iniciais;</li><li>Planejamento e levantamento da iteração que se inicia</li></ul> | 20/04 |
+| Inicialização II |<ul><li>Revisão e aplicação das correções da Iteração anterior;</li>  <li>lRevisão e alteração da lista de trabalho no Pivotal;</li><li>Planejamento da iteração que se inicia;</li><li> levantar requisitos como histórias do usuário;</li><li>Levantar casos de uso</li></ul>| 11/05 |
+|Elaboração|<ul><li>Revisar a iteração anterior;</li><li>Especificação de casos de uso e diagramas de sequência;</li><li>Planejar e projetar os testes de sistemas/aceitação (Desenvolvimento Orientado a Comportamento e Desenvolvimento Orientado a Testes);</li><li>Planejar iteração que se inicia</li></ul>| 08/06 |
+|Construção|<ul><li>Realizar Revisão da Iteração Anterior;</li><li>Implementar e Testar 100% dos Requisitos;</li><li>Entrega do produto com no mínimo 50% dos requisitos que foram priorizados (implementados e testados).</li></ul> | 30/06 |
 
 ##4.Designação do Gerente do Projeto
  ```
@@ -78,11 +78,11 @@ stakeholders.
  
 ##5.Requisitos de Alto Nível
 ```
-1. Manter o portal online a maior parte do tempo possível.
+1. Banco de questões disponível para todas as séries do ensino médio.
 2. Cadastro de usuários por perfil específico (Professor, aluno/estudante, monitor).
 3. Possibilidade de cadastro de Instituições de ensino (mediante estudo de viabilidade).
 4. Portal (website), simples e de fácil navegação por qualquer tipo de usuário.
-5. Cadastro e manutenção do banco de questões online.
+5. Criar uma plataforma fácil e didática.
 ```
 
 ##6.Riscos de Alto Nível
@@ -109,9 +109,9 @@ stakeholders.
 ##8.Restrições
 ```
 1. Deverá ser usada, somente,  a linguagem Ruby e o framework Rails;
-2. Os membros da equipe deverão ter conhecimento intermediário na linguagem;
-3. Conhecimento em HTML e CSS
-4. Horário para conseguir alinhar todos os membros em reuniões;
+2. Equipe Limitada a 5 integrantes;
+3. A plataforma está limitada a apenas alunos do ensino médio;
+4. A plataforma terá de ser entregue até dia 30/06
 
 ```
 
