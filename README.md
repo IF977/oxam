@@ -117,7 +117,7 @@ stakeholders.
 
 ##9. Stakeholders
 |Stakeholders|Função|
-|:---------------------:|:---------------------|
+|:---------------------:|:---------------------:|
 |Ygo Leite|Gerente Do Projeto/Desenvolvedor|
 |Vinicius Garcia|Avaliador do projeto e principal cliente|
 |Carlos Henrique|Product Owner (PO)/Desenvolvedor|
