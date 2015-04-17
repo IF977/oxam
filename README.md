@@ -115,7 +115,16 @@ stakeholders.
 
 ```
 
-##9.Acompanhamento do Projeto
+##9. Stakeholders
+|Stakeholder|Função|
+|Ygo Leite|Gerente Do Projeto/Desenvolvedor|
+|Vinicius Garcia|Avaliador do projeto e principal cliente|
+|Carlos Henrique|Product Owner (PO)/Desenvolvedor|
+|Karla Thais|Scrum Master/Desenvolvedor|
+|Tulio Siqueira e Alex Paulo|Engenheiros de Software/Desenvolvedores|
+|Professores e Alunos do nível médio de ensino|Principais áreas beneficiadas com o projeto|
+
+##10.Acompanhamento do Projeto
 ```
 O acompanhamento do grupo será feito, em sua maioria, pelo Pivotal Tracker e as reuniões ocorreram pessoalmente, em local a
 definir, ou através de ferramentas online como o Facebook, Skype, http://appear.in e por e-mail.
