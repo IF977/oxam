@@ -118,7 +118,6 @@ stakeholders.
 ##9. Stakeholders
 |Stakeholders|Função|
 |:---------------------:|:---------------------:|
-|Ygo Leite|Gerente Do Projeto/Desenvolvedor|
 |Vinicius Garcia|Avaliador do projeto e principal cliente|
 |Alexandre Marcos|Avaliador da cadeira de gerenciamento de projetos|
 |Jose Durval Carneiro|Monitor e avaliador da cadeira de engnharia de software|
