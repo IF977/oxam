@@ -120,9 +120,8 @@ stakeholders.
 |:---------------------:|:---------------------:|
 |Ygo Leite|Gerente Do Projeto/Desenvolvedor|
 |Vinicius Garcia|Avaliador do projeto e principal cliente|
-|Carlos Henrique|Product Owner (PO)/Desenvolvedor|
-|Karla Thais|Scrum Master/Desenvolvedor|
-|Tulio Siqueira e Alex Paulo|Engenheiros de Software/Desenvolvedores|
+|Alexandre Marcos|Avaliador da cadeira de gerenciamento de projetos|
+|Jose Durval Carneiro|Monitor e avaliador da cadeira de engnharia de software|
 |Professores e Alunos do nível médio de ensino|Principais áreas beneficiadas com o projeto|
 
 ##10.Acompanhamento do Projeto
