@@ -120,7 +120,7 @@ stakeholders.
 |:---------------------:|:---------------------:|
 |Vinicius Garcia|Avaliador do projeto e principal cliente|
 |Alexandre Marcos|Avaliador da cadeira de gerenciamento de projetos|
-|Jose Durval Carneiro|Monitor e avaliador da cadeira de engnharia de software|
+|Jose Durval Carneiro|Monitor e avaliador da cadeira de engenharia de software|
 |Professores e Alunos do nível médio de ensino|Principais áreas beneficiadas com o projeto|
 
 ##10.Acompanhamento do Projeto
