@@ -1,0 +1,55 @@
+<b>Levantamento de Requisitos Como Histórias de Usuários</b>
+
+<i><b>Com relação ao cadastro, etc</b></i>
+
+	- Como um usuário comum eu quero conseguir me cadastrar no site da ferramenta de maneira rápida e fácil
+	- Como um usuário comum durante o cadastro eu deverei especificar meu perfil (estudante / professor) para que futuramente possam-se criar restrições referentes a cada tipo de perfil
+	- Como um usuário comum eu deverei, após escolher o perfil, entrar com dados referentes a matrícula (caso aluno tenha sido a opção) ou ao siape (no caso de professor) para validarmos de fato se esse aluno / professor são de fato o que afirmam ser
+	- Como um usuário comum eu quero acessar a minha conta entrando com os dados inseridos durante o cadastro por meio de uma página onde existam os campos de login / senha e ofereçam opções para recuperação de senha / conta
+	- Como um usuário comum eu deverei identificar visualmente na página de login caso algumas das informações de entrada (login / senha) estejam incorretas
+	- Como um usuário comum eu quero ter a oportunidade de recuperar o acesso a minha conta caso eu esqueça dados como o e-mail que cadastrei (ou login) ou a minha senha de acesso, por meio de um e-mail (disparado pela opção de recuperar senha/conta na pagina de login) oferencendo a oportunidade de mudar a senha e mostrando a atual senha (caso seja o caso de esquecimento) ou apenas reenviando um email para o e-mail cadastrado na conta, com os dados da conta (login/senha)
+ 
+
+<i><b>Com relação a ferramenta (Perfil Genérico / inerente a ambos os perfis)</b></i>
+
+	- Como usuário quero ter acesso a meus dados cadastrais e poder modificá-los caso seja necessário
+	- Como usuário quero ter um menu que me forneção as opções para a navegação na ferramenta online
+	- Como usuário quero ter meu acesso a plataforma Estude+ encerrado ao clicar na opção de me desconectar
+	
+<i><b>Com relação a ferramenta (Perfil Professor)</b></i>
+
+	- Como professor quero criar turmas (podendo essas ser associadas a uma instituição existente previamente cadastrada pelos mantenedores do site) e nomeá-las da maneira que desejar
+	- Como professor quero associar alunos cadastrados a turmas específicas
+	- Como professor quero criar exercícios online
+	- Como professor quero aplicar exercícios criados em turmas existentes
+	- Como professor quero descriminar assuntos abordados nas listas de exercícios criadas (descrição do que vai contemplar tal exercício)
+	- Como professor quero poder descriminar a ementa para uma determinada disciplina
+	- Como professor quero corrigir exercícios previamente aplicados de maneira manual ou automática (listas de exercícios só com questões alternativas e com a entrada de gabarito associado)
+	- Como professor quero ter um calendário onde poderei criar o plano de aulas (colocando assuntos vistos por aula, realização exercícios, listas e entregas esperadas)
+	- Como professor quero poder criar listas / exercícios para datas específicas e que essas sejam postas no calendário
+	- Como professor quero poder realizar um feedback para alunos individualmente, para turmas ou para uma determinada disciplina no geral
+	- Como professor quero poder viazualizar o desempenho dos alunos individualmente, por disciplinas específicas ou até mesmo por turmas especifícias
+	- Como professor quero extrair relatórios a partir dos dados de desempenho dos alunos para ter chance de identificar mais facilmente as curvas de aprendizados nas disciplinas e/ou em assuntos específicos
+	- Como professor quero ter acesso ao histórico de minhas turmas, disciplinas, desempenho e níveis de aprovação, para ter a chance de identificar tendencias e aprimorar a forma com que os conteúdos são passados ou até mesmo na didática dos assuntos a serem lecionados
+	- Como professor quero poder responder a solicitações de alunos
+	- Como professor quero poder filtrar as solicitações feitas pelos alunos (por data, horário, turma, disciplina ou assunto)
+	- Como professor quero manter o histórico de solicitações feitas e quais foram tratadas/resolvidas/descartadas
+	- Como professor quero ser capaz de criar pesquisas de opnião para determinadas ações (marcação de exercícios, etc)
+	- Como professor quero manter o histórico das pesquisas de opinião criadas
+	- Como professor quero poder reportar problemas ou sugestões por meio de um canal online não necessariamente dinâmico porém com a maior agilidade possível (ex.: via e-mail/CONTACT US)
+	
+<i><b>Com relação a ferramenta (Perfil Aluno / Estudante)</b></i>
+
+	- Como aluno quero ter acesso a listas de questões a/para realizar
+	- Como aluno quero ver o resultado de minhas listas / resoluções a partir das atividades já realizadas
+	- Como aluno quero ter acesso ao feedback deixado pelo professor (seja ele associado a turma, a uma disciplina em específico, ou um feedback privado, ou seja, só para mim)
+	- Como aluno quero poder extrair informações do sistema a respeito de meu desempenho geral (num determinado periodo, parcial (referente a disciplina ou turma em específico) para poder ter a oportunidade de identificar pontos nos quais preciso de um maior esforço ou atenção para melhorar meu desempenho
+	- Como aluno quero ter acesso a ementa de uma determinada disciplina
+	- Como aluno quero ter acesso ao conteúdo que será contemplado por um exercício futuro
+	- Como aluno quero ter um calendário que seja atualizado mediante a criação de datas de exercícios ou listas dos mesmos (a partir das ações dos professores)
+	- Como aluno quero ser capaz de editar notas no meu calendário para controle próprio, porém que as criadas pelos professores sejam mantidas (logo, eu não poderei modificar essas)
+	- Como aluno quero ser capaz de responder/votar pesquisas criada pelos professores e associadas a turma/disciplina no qual estou inserido
+	- Como aluno quero ter o histórico das pesquisas respondidas
+	- Como aluno quero poder enviar solicitações aos meus professores a respeito de assuntos/ocorrências em geral
+	- Como aluno quero manter o histórico das solicitações e poder verificar os status das mesmas
+	- Como aluno quero poder reportar problemas ou sugestões por meio de um canal online não necessariamente dinâmico porém com a maior agilidade possível (ex.: via e-mail/CONTACT US)
