@@ -1,6 +1,6 @@
-<b>Levantamento de Requisitos Como Histórias de Usuários</b>
+Levantamento de Requisitos Como Histórias de Usuários
 
-<i><b>Com relação ao cadastro, etc</b></i>
+Com relação ao cadastro, etc
 
 	- Como um usuário comum eu quero conseguir me cadastrar no site da ferramenta de maneira rápida e fácil
 	- Como um usuário comum durante o cadastro eu deverei especificar meu perfil (estudante / professor) para que futuramente possam-se criar restrições referentes a cada tipo de perfil
@@ -10,13 +10,13 @@
 	- Como um usuário comum eu quero ter a oportunidade de recuperar o acesso a minha conta caso eu esqueça dados como o e-mail que cadastrei (ou login) ou a minha senha de acesso, por meio de um e-mail (disparado pela opção de recuperar senha/conta na pagina de login) oferencendo a oportunidade de mudar a senha e mostrando a atual senha (caso seja o caso de esquecimento) ou apenas reenviando um email para o e-mail cadastrado na conta, com os dados da conta (login/senha)
  
 
-<i><b>Com relação a ferramenta (Perfil Genérico / inerente a ambos os perfis)</b></i>
+Com relação a ferramenta (Perfil Genérico / inerente a ambos os perfis)
 
 	- Como usuário quero ter acesso a meus dados cadastrais e poder modificá-los caso seja necessário
 	- Como usuário quero ter um menu que me forneção as opções para a navegação na ferramenta online
 	- Como usuário quero ter meu acesso a plataforma Estude+ encerrado ao clicar na opção de me desconectar
 	
-<i><b>Com relação a ferramenta (Perfil Professor)</b></i>
+Com relação a ferramenta (Perfil Professor)
 
 	- Como professor quero criar turmas (podendo essas ser associadas a uma instituição existente previamente cadastrada pelos mantenedores do site) e nomeá-las da maneira que desejar
 	- Como professor quero associar alunos cadastrados a turmas específicas
@@ -38,7 +38,7 @@
 	- Como professor quero manter o histórico das pesquisas de opinião criadas
 	- Como professor quero poder reportar problemas ou sugestões por meio de um canal online não necessariamente dinâmico porém com a maior agilidade possível (ex.: via e-mail/CONTACT US)
 	
-<i><b>Com relação a ferramenta (Perfil Aluno / Estudante)</b></i>
+Com relação a ferramenta (Perfil Aluno / Estudante)
 
 	- Como aluno quero ter acesso a listas de questões a/para realizar
 	- Como aluno quero ver o resultado de minhas listas / resoluções a partir das atividades já realizadas
