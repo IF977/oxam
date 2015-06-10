@@ -1,0 +1,115 @@
+  
+Objetivos
+É a elaboração de uma plataforma online fluida e intuitiva onde professores possam disponibilizar questões, de acordo com a série de seus alunos, com os assuntos vivenciados em sala de aula e com os assuntos de auto interesse. Possibilitando também o acompanhamento de monitores, designados pelos professores, para pequenos grupos de estudo e relatórios de desempenho dos alunos e dos próprios professores em si.Para atingirmos esse objetivo são utilizados os seguintes requisitos:
+Cadastro de usuários por perfil específico (Professor, aluno/estudante)
+Possibilidade de cadastro de Instituições de ensino (mediante estudo de viabilidade).
+Portal (website), simples e de fácil navegação por qualquer tipo de usuário.
+Cadastro e manutenção do banco de questões online.
+
+Identificação dos atores: 
+Ator 01: Visitante- Qualquer pessoa que visitar o sistema, sem estar autenticado por login/senha.
+Ator 02: Usuário– Pessoa autenticada com login e senha.
+Ator 03 :Professor-Pessoa capaz de cadastrar questões.
+Ator 04:Aluno-Pessoa capaz de responder as questões.
+Ator 05:Administradores do site-Equipe capaz de fazer alterações no portal.
+
+
+Atividades principais:
+Usuário abre o site na janela do browser.
+Usuário informa o login e a senha.
+Sistema verifica informações do tipo de login (aluno ou professor). Sistema compara informações com os arquivos indexados em bancos de dados.
+Sistema gera lista com os exercicios   encontrados.
+Sistema busca no banco de dados os exercícios referente a disciplina selecionada pelo usuário(no caso aluno) ou arquiva os exercícios selecionados pelo  professor.
+Usuário responde as questões.
+Usuário verifica se resultados são satisfatórios. Em caso afirmativo, seleciona uma informação ou link. Em caso negativo, faz uma notificação no email cadastrado do professor responsável.
+Sistema verifica o grau de satisfação dos alunos  com relação ao professor.
+
+ 
+Detalhamento dos casos de uso 
+Caso de Uso-Efetuar Login 
+Descrição: Este caso de uso especifica a ação de autenticação que um usuário executa no sistema, com objetivo de se conectar na aplicação. O usuário fornece seus dados básicos de autenticação e, após a validação no sistema, o usuário torna-se apto a realizar operações da área restrita do sistema. Os usuários se dividem em:
+a) aluno: (usuário habilitado a responder os  exercícios).
+b) professor:(usuário que cadastra as questões no sistema, habilitado a manter os cadastros do portal e consultar os pacotes adquiridos pelos clientes).
+(a) Atores: Usuário,aluno,professor.
+(b) Pré-condições: 
+1. O ator deve estar cadastrado no sistema.
+(c) Pós-condições:
+ 1. O ator fica habilitado a realizar ações na área restrita do sistema. 
+(d) Requisitos funcionais: 
+1. O portal deve prover uma interface para clientes, operadores e administradores se autenticarem no sistema
+( e) Requisitos não funcionais: 
+1. As senhas de usuários devem ser armazenadas de forma criptografada. 
+
+
+Caso de Uso- Selecionar disciplina
+Descrição:Este caso de uso  especifica  seleção de uma determinada disciplina para selecionar a lição e assim   resolver os exercícios (aluno) ou cadastrar lições e exercícios
+(a) Atores: Aluno,professor.
+(b) Pré-condições: 
+1. O ator deve estar cadastrado no sistema.
+(c) Pós-condições:
+1. O ator fica habilitado  a cadastrar questões ou  respondê-las.
+(d) Requisitos funcionais: 
+1. O portal deve prover uma interface para alunos e professores escolherem uma disciplina. 
+( e) Requisitos não funcionais: 
+1. Os alunos podem se cadastrar em em até 8 disciplinas  por vez e os professores até 5 disciplinas por vez.
+
+Caso de Uso-Selecionar lição 
+Descrição:
+(a) Atores:Aluno.
+(b) Pré-condições: 
+1. O ator deve ter selecionado uma disciplina.
+(c) Pós-condições:
+1. O ator fica habilitado a selecionar uma lição da disciplina selecionada.
+(d) Requisitos funcionais: 
+1. O portal deve prover uma interface para o aluno escolher a lição desejada
+( e) Requisitos não funcionais: 
+1. Os alunos podem escolher apenas uma  lição por vez.
+
+Caso de Uso-Responder exercício
+Descrição: Este caso de uso especifica a condição de resposta do aluno selecionado.
+(a) Atores:Aluno.
+(b) Pré-condições: 
+1. O ator deve ter  selecionado a disciplina e a lição desejada. 
+ (c) Pós-condições:
+ 1. O ator fica habilitado a responder as  questões. 
+(d) Requisitos funcionais: 
+1. O portal deve prover uma interface para os alunos responderem as questões.
+( e) Requisitos não funcionais: 
+1. As questões devem ser respondidas  uma a uma,não importando a ordem.
+
+Caso de Uso-Cadastrar lição 
+Descrição: Este caso de uso especifica o  cadastro das lições .
+(a) Atores:Professor.
+(b) Pré-condições: 
+O ator deve ter selecionado uma disciplina.
+(c) Pós-condições:
+O professor será capaz de cadastrar lições para que os alunos resolvam os exercícios escolhidos.
+(d) Requisitos funcionais: 
+O portal deverá prover uma interface gráfica  contendo as questões escolhidas.
+
+( e) Requisitos não funcionais: 
+O ator poderá observar as  lições cadastradas em ordem cronológica.
+
+Caso de Uso-Cadastrar exercícios
+Descrição: Este caso de uso especifica como o professor deverá escolher a questões .
+(a) Atores:Professor.
+(b) Pré-condições: 
+O ator deverá ter cadastrado uma lição .
+(c) Pós-condições:
+O ator poderá  observar as questões cadastradas por ele.
+(d) Requisitos funcionais:
+O ator poderá escolher a ordem das questões.
+( e) Requisitos não funcionais: 
+O ator poderá escolher  o tipo da questão:objetiva ou subjetiva.
+
+Caso de Uso-Corrigir exercício
+Descrição: Este caso de uso verifica a ação de verificação do desempenho dos alunos de uma determinada turma.
+(a) Atores:Professor.
+(b) Pré-condições: 
+1.Ter cadastrado questões 
+(c) Pós-condições:
+Obtenção de gráfico com desempenho dos alunos.
+(d) Requisitos funcionais: 
+O  portal deverá prover uma interface para o professor com gráfico detalhando o aprendizado dos alunos.
+( e) Requisitos não funcionais: 
+1. O professor será notificado por email quando todos  os alunos de  concluírem os  exercícios.

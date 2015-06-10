@@ -1,0 +1,159 @@
+-- Inserção de dados na tabela 'Pessoa'
+
+INSERT INTO Pessoa (p_id, p_nome, p_data_nasc, p_endereco, p_bairro, p_numero, p_cidade, p_complemento, p_cep, p_email, p_nome_inst, p_login, p_senha) VALUES (1,'João Carlos','14/12/1987','Rua Rio Grande do Sul','Tamarineira',136,'Recife','Casa','52050-140','jcarlos@gmail.com','Universidade Federal de Pernambuco','jcarlos','jcarlos2015');
+INSERT INTO Pessoa (p_id, p_nome, p_data_nasc, p_endereco, p_bairro, p_numero, p_cidade, p_complemento, p_cep, p_email, p_nome_inst, p_login, p_senha) VALUES (2,'João Santos','14/12/1987','Rua Rio Grande do Sul','Tamarineira',136,'Recife','Casa','52050-140','jsantos@gmail.com','Universidade Federal de Pernambuco','jsantos','jsantos2015');
+INSERT INTO Pessoa (p_id, p_nome, p_data_nasc, p_endereco, p_bairro, p_numero, p_cidade, p_complemento, p_cep, p_email, p_nome_inst, p_login, p_senha) VALUES (3,'Astrobildo Pereira','10/05/1990','Praça Professor Fleming','Jaqueira',1012,'Recife', 'Apartamento','52050-180','a.pereira@yahoo.com.br','Site Estude+','a.pereira','astro@1234');
+INSERT INTO Pessoa (p_id, p_nome, p_data_nasc, p_endereco, p_bairro, p_numero, p_cidade, p_complemento, p_cep, p_email, p_nome_inst, p_login, p_senha) VALUES (4,'Silvio José','04/01/1970','Avenida João de Barros','Boa Vista',403,'Recife','Apartamento','50050-180','silvio_jose@hotmail.com','Universidade Federal de Pernabuco','silvioj','sj04011970');
+INSERT INTO Pessoa (p_id, p_nome, p_data_nasc, p_endereco, p_bairro, p_numero, p_cidade, p_complemento, p_cep, p_email, p_nome_inst, p_login, p_senha) VALUES (5,'Rodrigo Matos','03/03/1980','Rua Felipe Camarão','Varadouro',152,'Olinda','Casa','53010-180','rmatos2005@gmail.com','Faculdade Mauricio de Nassau','rodmatos','matos80rod');
+INSERT INTO Pessoa (p_id, p_nome, p_data_nasc, p_endereco, p_bairro, p_numero, p_cidade, p_complemento, p_cep, p_email, p_nome_inst, p_login, p_senha) VALUES (6,'Danila Silva','10/08/1994','Rua Vinte e Sete de Janeiro','Carmo',358,'Olinda','Casa','53020-020','dani.silva@yahoo.com.br','Faculdade Mauricio de Nassau','danisilva','d4n1s1lv4');
+INSERT INTO Pessoa (p_id, p_nome, p_data_nasc, p_endereco, p_bairro, p_numero, p_cidade, p_complemento, p_cep, p_email, p_nome_inst, p_login, p_senha) VALUES (7,'Oscar Cavalcanti','18/10/1966','Vila Iracy','Casa Forte',1454,'Recife','Casa','52061-471','oscar.cavalcanti@gmail.com','Universidade Federal de Pernambuco','oscarc','cavalcanti1166');
+INSERT INTO Pessoa (p_id, p_nome, p_data_nasc, p_endereco, p_bairro, p_numero, p_cidade, p_complemento, p_cep, p_email, p_nome_inst, p_login, p_senha) VALUES (8,'Bruna Chaves','27/09/1989','Rua João Suassuna','Boa Vista',22,'Recife','Apartamento','50050-350','bchaves@gmail.com','Universidade Federal de Pernambuco','bruchaves','chaves2789bru');
+INSERT INTO Pessoa (p_id, p_nome, p_data_nasc, p_endereco, p_bairro, p_numero, p_cidade, p_complemento, p_cep, p_email, p_nome_inst, p_login, p_senha) VALUES (9,'Bruna Alcantara','15/04/1996','Rua Itajaí','Imbiribeira',120,'Recife','Casa','51200-020','balcantara96@gmail.com','Faculdade Mauricio de Nassau','brunih','bru96alcantara');
+INSERT INTO Pessoa (p_id, p_nome, p_data_nasc, p_endereco, p_bairro, p_numero, p_cidade, p_complemento, p_cep, p_email, p_nome_inst, p_login, p_senha) VALUES (10,'Jair Oliveira','17/07/1997','Rua Itajaí','Imbiribeira',120,'Recife','Casa','51200-020','jair.oli@gmail.com','Faculdade Mauricio de Nassau','jaoli','jair1olive97');
+INSERT INTO Pessoa (p_id, p_nome, p_data_nasc, p_endereco, p_bairro, p_numero, p_cidade, p_complemento, p_cep, p_email, p_nome_inst, p_login, p_senha) VALUES (11,'Abelardo Barbosa','12/12/1992','Rua Itamaracá','Imbiribeira',454,'Recife','Casa','51200-030','abel.barbosa@yahoo.com.br','Universidade Federal de Pernambuco','abel2015','4b3lb4rb');
+INSERT INTO Pessoa (p_id, p_nome, p_data_nasc, p_endereco, p_bairro, p_numero, p_cidade, p_complemento, p_cep, p_email, p_nome_inst, p_login, p_senha) VALUES (12,'Ivo Azevedo','05/05/1991','Rua do Sossego','Santo Amaro',461,'Recife','Casa','50100-150','ivoazevedo@gmail.com','Universidade Federal de Pernambuco','ivoazevedo','1v04zeved0');
+INSERT INTO Pessoa (p_id, p_nome, p_data_nasc, p_endereco, p_bairro, p_numero, p_cidade, p_complemento, p_cep, p_email, p_nome_inst, p_login, p_senha) VALUES (13,'Roberto Araújo','29/02/1988','Avenida João de Barros','Boa Vista',403,'Recife','Apartamento','50050-180','beto.araujo@hotmail.com','Universidade Federal de Pernambuco', 'betoaraujo', 'beto4r4uj0');
+INSERT INTO Pessoa (p_id, p_nome, p_data_nasc, p_endereco, p_bairro, p_numero, p_cidade, p_complemento, p_cep, p_email, p_nome_inst, p_login, p_senha) VALUES (14,'Anderson Magno','15/11/1978','Rua Victor José Fernandes','Bairro Novo',606,'Olinda','Casa','3030-090','andy_magno@hotmail.com','Faculdade Mauricio de Nassau','andymagno','magno15andy78');
+commit;
+
+-- Inserção de dados na tabela 'Aluno'
+
+INSERT INTO Aluno (a_id, a_matricula) VALUES (1,'0000000001');
+INSERT INTO Aluno (a_id, a_matricula) VALUES (2,'0000000002');
+INSERT INTO Aluno (a_id, a_matricula) VALUES (6,'0000000003');
+INSERT INTO Aluno (a_id, a_matricula) VALUES (9,'0000000004');
+INSERT INTO Aluno (a_id, a_matricula) VALUES (10,'0000000005');
+INSERT INTO Aluno (a_id, a_matricula) VALUES (11,'0000000006');
+INSERT INTO Aluno (a_id, a_matricula) VALUES (12,'0000000007');
+INSERT INTO Aluno (a_id, a_matricula) VALUES (13,'0000000008');
+commit;
+
+-- Inserção de dados na Tabela 'Professor'
+
+INSERT INTO Professor (pf_id, pf_siape) VALUES (4,'0000000011');
+INSERT INTO Professor (pf_id, pf_siape) VALUES (5,'0000000022');
+INSERT INTO Professor (pf_id, pf_siape) VALUES (7,'0000000033');
+INSERT INTO Professor (pf_id, pf_siape) VALUES (8,'0000000044');
+INSERT INTO Professor (pf_id, pf_siape) VALUES (14,'0000000055');
+commit;
+
+-- Inserção de dados na Tabela 'Admininistrador'
+
+INSERT INTO Administrador (adm_id, adm_codigo) VALUES (3,'0011223344');
+commit;
+
+-- Inserção de dados na Tabela 'Disciplina'
+
+INSERT INTO Disciplina (d_nome_disc, d_cod_disc) VALUES ('Sociologia','SOCIOLOG01');
+INSERT INTO Disciplina (d_nome_disc, d_cod_disc) VALUES ('Matemática Discreta','ENGCOMMD01');
+INSERT INTO Disciplina (d_nome_disc, d_cod_disc) VALUES ('Cálculo 1','ENGCOMPC01');
+INSERT INTO Disciplina (d_nome_disc, d_cod_disc) VALUES ('Cálculo 2','ENGCOMPC02');
+INSERT INTO Disciplina (d_nome_disc, d_cod_disc) VALUES ('Cálculo 3','ENGCOMPC03');
+INSERT INTO Disciplina (d_nome_disc, d_cod_disc) VALUES ('Recursos Humanos','REHUMADM01');
+INSERT INTO Disciplina (d_nome_disc, d_cod_disc) VALUES ('Teoria Geral da Administração 1','TGA01ADM01');
+commit;
+
+-- Inserção de dados na Tabela 'Ministra'
+
+INSERT INTO Ministra (m_cod_disc, m_professor_id, m_semestre) VALUES ('ENGCOMPC01',4,'2014.1');
+INSERT INTO Ministra (m_cod_disc, m_professor_id, m_semestre) VALUES ('ENGCOMPC01',4,'2014.2');
+INSERT INTO Ministra (m_cod_disc, m_professor_id, m_semestre) VALUES ('ENGCOMPC01',4,'2015.1');
+INSERT INTO Ministra (m_cod_disc, m_professor_id, m_semestre) VALUES ('ENGCOMPC02',4,'2014.1');
+INSERT INTO Ministra (m_cod_disc, m_professor_id, m_semestre) VALUES ('ENGCOMPC02',4,'2015.1');
+INSERT INTO Ministra (m_cod_disc, m_professor_id, m_semestre) VALUES ('ENGCOMPC03',7,'2014.1');
+INSERT INTO Ministra (m_cod_disc, m_professor_id, m_semestre) VALUES ('ENGCOMPC03',7,'2014.2');
+INSERT INTO Ministra (m_cod_disc, m_professor_id, m_semestre) VALUES ('ENGCOMPC03',7,'2015.1');
+INSERT INTO Ministra (m_cod_disc, m_professor_id, m_semestre) VALUES ('ENGCOMPC02',7,'2014.2');
+INSERT INTO Ministra (m_cod_disc, m_professor_id, m_semestre) VALUES ('ENGCOMMD01',8,'2014.1');
+INSERT INTO Ministra (m_cod_disc, m_professor_id, m_semestre) VALUES ('ENGCOMMD01',8,'2014.2');
+INSERT INTO Ministra (m_cod_disc, m_professor_id, m_semestre) VALUES ('ENGCOMMD01',8,'2015.1');
+INSERT INTO Ministra (m_cod_disc, m_professor_id, m_semestre) VALUES ('SOCIOLOG01',5,'2014.1');
+INSERT INTO Ministra (m_cod_disc, m_professor_id, m_semestre) VALUES ('SOCIOLOG01',5,'2014.2');
+INSERT INTO Ministra (m_cod_disc, m_professor_id, m_semestre) VALUES ('SOCIOLOG01',5,'2015.1');
+INSERT INTO Ministra (m_cod_disc, m_professor_id, m_semestre) VALUES ('REHUMADM01',5,'2014.1');
+INSERT INTO Ministra (m_cod_disc, m_professor_id, m_semestre) VALUES ('REHUMADM01',5,'2014.2');
+INSERT INTO Ministra (m_cod_disc, m_professor_id, m_semestre) VALUES ('REHUMADM01',14,'2015.1');
+commit;
+
+-- Inserção de dados na Tabela 'Turma'
+
+INSERT INTO Turma (t_cod_turma, t_desc_turma) VALUES ('ENGCOMP001','Engenharia da Computação S1');
+INSERT INTO Turma (t_cod_turma, t_desc_turma) VALUES ('ENGCOMP002','Engenharia da Computação S2');
+INSERT INTO Turma (t_cod_turma, t_desc_turma) VALUES ('ENGCOMP003','Engenharia da Computação S3');
+INSERT INTO Turma (t_cod_turma, t_desc_turma) VALUES ('CIECOMP001','Ciência da Computação S1');
+INSERT INTO Turma (t_cod_turma, t_desc_turma) VALUES ('ADMINMN001','Administração S1');
+INSERT INTO Turma (t_cod_turma, t_desc_turma) VALUES ('ADMINMN002','Administração S2');
+INSERT INTO Turma (t_cod_turma, t_desc_turma) VALUES ('CONTABN001','Contabilidade S1');
+commit;
+
+-- Inserção de dados na Tabela 'Lista_de_Questoes'
+
+INSERT INTO Lista_de_Questoes (l_nome_desc, l_cod_lista, l_data_criacao, l_questoes, l_professor_id, l_pontuacao) VALUES ('Primeiro Exercício Escolar de Cálculo - Eng. Computação','ECC1201411','05/04/2014','Questões blablabla',4,10);
+INSERT INTO Lista_de_Questoes (l_nome_desc, l_cod_lista, l_data_criacao, l_questoes, l_professor_id, l_pontuacao) VALUES ('Segundo Exercício Escolar de Cálculo - Eng. Computação','ECC1201412','06/06/2014','Questões blablabla',4,10);
+INSERT INTO Lista_de_Questoes (l_nome_desc, l_cod_lista, l_data_criacao, l_questoes, l_professor_id, l_pontuacao) VALUES ('Mini Exercício Escolar de Cálculo 2 - Eng. Computação','ECC2201411','04/03/2014','Questões blablabla',4,4);
+INSERT INTO Lista_de_Questoes (l_nome_desc, l_cod_lista, l_data_criacao, l_questoes, l_professor_id, l_pontuacao) VALUES ('Primeiro Exercício Escolar de Cálculo 2 - Eng. Computação','ECC2201412','03/04/2014','Questões blablabla',4,6);
+INSERT INTO Lista_de_Questoes (l_nome_desc, l_cod_lista, l_data_criacao, l_questoes, l_professor_id, l_pontuacao) VALUES ('Mini Prova de Matemática Discreta - Ciência da Computação','CCMD201411','03/03/2014','Questões blablabla',8,3);
+INSERT INTO Lista_de_Questoes (l_nome_desc, l_cod_lista, l_data_criacao, l_questoes, l_professor_id, l_pontuacao) VALUES ('Prova de Matemática Discreta - Ciencia da Computação','CCMD201412','04/04/2014','Questões blablabla',8,7);
+INSERT INTO Lista_de_Questoes (l_nome_desc, l_cod_lista, l_data_criacao, l_questoes, l_professor_id, l_pontuacao) VALUES ('PEE de Recursos Humanos','ADRH201421','16/10/2014','Questões blablabla',5,10);
+INSERT INTO Lista_de_Questoes (l_nome_desc, l_cod_lista, l_data_criacao, l_questoes, l_professor_id, l_pontuacao) VALUES ('SEE de Recursos Humanos','ADRH201422','02/12/2014','Questões blablabla',5,10);
+commit;
+
+-- Inserção de dados na Tabela 'Participa_Turma'
+
+INSERT INTO Participa_Turma(par_aluno_id, par_cod_turma) VALUES (1,'ENGCOMP001');
+INSERT INTO Participa_Turma(par_aluno_id, par_cod_turma) VALUES (2,'ENGCOMP001');
+INSERT INTO Participa_Turma(par_aluno_id, par_cod_turma) VALUES (6,'ADMINMN001');
+INSERT INTO Participa_Turma(par_aluno_id, par_cod_turma) VALUES (9,'ADMINMN001');
+INSERT INTO Participa_Turma(par_aluno_id, par_cod_turma) VALUES (10,'ADMINMN002');
+INSERT INTO Participa_Turma(par_aluno_id, par_cod_turma) VALUES (11,'ENGCOMP002');
+INSERT INTO Participa_Turma(par_aluno_id, par_cod_turma) VALUES (12,'ENGCOMP003');
+INSERT INTO Participa_Turma(par_aluno_id, par_cod_turma) VALUES (13,'CIECOMP001');
+
+-- Inserção de dados na Tabela 'Gerencia_Turma'
+
+INSERT INTO Gerencia_Turma (ger_professor_id, ger_cod_turma) VALUES (4,'ENGCOMP001');
+INSERT INTO Gerencia_Turma (ger_professor_id, ger_cod_turma) VALUES (4,'ENGCOMP002');
+INSERT INTO Gerencia_Turma (ger_professor_id, ger_cod_turma) VALUES (7,'ENGCOMP003');
+INSERT INTO Gerencia_Turma (ger_professor_id, ger_cod_turma) VALUES (8,'CIECOMP001');
+INSERT INTO Gerencia_Turma (ger_professor_id, ger_cod_turma) VALUES (5,'ADMINMN001');
+INSERT INTO Gerencia_Turma (ger_professor_id, ger_cod_turma) VALUES (5,'ADMINMN002');
+INSERT INTO Gerencia_Turma (ger_professor_id, ger_cod_turma) VALUES (14,'CONTABN001');
+commit;
+
+-- Inserção de dados na Tabela 'Aplica_Lista'
+
+INSERT INTO Aplica_Lista (ap_cod_lista, ap_professor_id, ap_cod_turma, ap_data_de_aplicacao) VALUES ('ECC1201411',4,'ENGCOMP001','12/04/2014');
+INSERT INTO Aplica_Lista (ap_cod_lista, ap_professor_id, ap_cod_turma, ap_data_de_aplicacao) VALUES ('ECC1201412',4,'ENGCOMP001','14/06/2014');
+INSERT INTO Aplica_Lista (ap_cod_lista, ap_professor_id, ap_cod_turma, ap_data_de_aplicacao) VALUES ('ECC2201411',4,'ENGCOMP002','11/03/2014');
+INSERT INTO Aplica_Lista (ap_cod_lista, ap_professor_id, ap_cod_turma, ap_data_de_aplicacao) VALUES ('ECC2201412',4,'ENGCOMP002','10/04/2014');
+INSERT INTO Aplica_Lista (ap_cod_lista, ap_professor_id, ap_cod_turma, ap_data_de_aplicacao) VALUES ('CCMD201411',8,'CIECOMP001','10/03/2014');
+INSERT INTO Aplica_Lista (ap_cod_lista, ap_professor_id, ap_cod_turma, ap_data_de_aplicacao) VALUES ('CCMD201412',8,'CIECOMP001','14/04/2014');
+INSERT INTO Aplica_Lista (ap_cod_lista, ap_professor_id, ap_cod_turma, ap_data_de_aplicacao) VALUES ('ADRH201421',5,'ADMINMN001','25/10/2014');
+INSERT INTO Aplica_Lista (ap_cod_lista, ap_professor_id, ap_cod_turma, ap_data_de_aplicacao) VALUES ('ADRH201422',5,'ADMINMN001','09/12/2014');
+commit;
+
+-- Inserção de dados na Tabela 'Soluciona_Lista'
+
+INSERT INTO Soluciona_Lista (s_aluno_id, s_cod_lista, s_data_resolucao, s_nota) VALUES (1,'ECC1201411','12/04/2014','7,5');
+INSERT INTO Soluciona_Lista (s_aluno_id, s_cod_lista, s_data_resolucao, s_nota) VALUES (2,'ECC1201411','12/04/2014','8,6');
+INSERT INTO Soluciona_Lista (s_aluno_id, s_cod_lista, s_data_resolucao, s_nota) VALUES (1,'ECC1201412','14/06/2014','9,0');
+INSERT INTO Soluciona_Lista (s_aluno_id, s_cod_lista, s_data_resolucao, s_nota) VALUES (2,'ECC1201412','14/06/2014','7,0');
+INSERT INTO Soluciona_Lista (s_aluno_id, s_cod_lista, s_data_resolucao, s_nota) VALUES (11,'ECC2201411','11/03/2014','10,0');
+INSERT INTO Soluciona_Lista (s_aluno_id, s_cod_lista, s_data_resolucao, s_nota) VALUES (11,'ECC2201412','10/04/2014','4,0');
+INSERT INTO Soluciona_Lista (s_aluno_id, s_cod_lista, s_data_resolucao, s_nota) VALUES (13,'CCMD201411','10/03/2014','7,4');
+INSERT INTO Soluciona_Lista (s_aluno_id, s_cod_lista, s_data_resolucao, s_nota) VALUES (13,'CCMD201412','20/06/2014','6,6');
+INSERT INTO Soluciona_Lista (s_aluno_id, s_cod_lista, s_data_resolucao, s_nota) VALUES (6,'ADRH201421','25/10/2014','9,4');
+INSERT INTO Soluciona_Lista (s_aluno_id, s_cod_lista, s_data_resolucao, s_nota) VALUES (9,'ADRH201421','25/10/2014','2,0');
+INSERT INTO Soluciona_Lista (s_aluno_id, s_cod_lista, s_data_resolucao, s_nota) VALUES (6,'ADRH201422','09/12/2014','7,0');
+INSERT INTO Soluciona_Lista (s_aluno_id, s_cod_lista, s_data_resolucao, s_nota) VALUES (9,'ADRH201422','09/12/2014','4,0');
+commit;
+
+
+
+
+
+
+
+
+
+
