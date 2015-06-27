@@ -1,0 +1,29 @@
+<%= form_for(@quest) do |f| %>
+  <% if @quest.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@quest.errors.count, "error") %> prohibited this quest from being saved:</h2>
+
+      <ul>
+      <% @quest.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :quest_enum %><br>
+    <%= f.text_area :quest_enum %>
+  </div>
+  <div class="field">
+    <%= f.label :quest_alternativas %><br>
+    <%= f.text_area :quest_alternativas %>
+  </div>
+  <div class="field">
+    <%= f.label :quest_resp %><br>
+    <%= f.text_area :quest_resp %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

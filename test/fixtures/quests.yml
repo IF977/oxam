@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  quest_enum: MyText
+  quest_alternativas: MyText
+  quest_resp: MyText
+
+two:
+  quest_enum: MyText
+  quest_alternativas: MyText
+  quest_resp: MyText

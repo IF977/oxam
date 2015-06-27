@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  pf_nome: MyText
+  pf_data_nasc: 2015-06-27
+  pf_endereco: MyString
+  pf_bairro: MyString
+  pf_numero: MyString
+  pf_cidade: MyString
+  pf_complemento: MyText
+  pf_cep: 1
+  pf_email: MyText
+  pf_nome_inst: MyString
+  pf_login: 
+  pf_senha: MyString
+  pf_siape: MyString
+
+two:
+  pf_nome: MyText
+  pf_data_nasc: 2015-06-27
+  pf_endereco: MyString
+  pf_bairro: MyString
+  pf_numero: MyString
+  pf_cidade: MyString
+  pf_complemento: MyText
+  pf_cep: 1
+  pf_email: MyText
+  pf_nome_inst: MyString
+  pf_login: 
+  pf_senha: MyString
+  pf_siape: MyString

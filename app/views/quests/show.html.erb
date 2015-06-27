@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Quest enum:</strong>
+  <%= @quest.quest_enum %>
+</p>
+
+<p>
+  <strong>Quest alternativas:</strong>
+  <%= @quest.quest_alternativas %>
+</p>
+
+<p>
+  <strong>Quest resp:</strong>
+  <%= @quest.quest_resp %>
+</p>
+
+<%= link_to 'Edit', edit_quest_path(@quest) %> |
+<%= link_to 'Back', quests_path %>

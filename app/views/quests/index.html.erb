@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Quests</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Quest enum</th>
+      <th>Quest alternativas</th>
+      <th>Quest resp</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @quests.each do |quest| %>
+      <tr>
+        <td><%= quest.quest_enum %></td>
+        <td><%= quest.quest_alternativas %></td>
+        <td><%= quest.quest_resp %></td>
+        <td><%= link_to 'Show', quest %></td>
+        <td><%= link_to 'Edit', edit_quest_path(quest) %></td>
+        <td><%= link_to 'Destroy', quest, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Quest', new_quest_path %>

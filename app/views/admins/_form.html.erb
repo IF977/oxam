@@ -1,0 +1,69 @@
+<%= form_for(@admin) do |f| %>
+  <% if @admin.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@admin.errors.count, "error") %> prohibited this admin from being saved:</h2>
+
+      <ul>
+      <% @admin.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :adm_nome %><br>
+    <%= f.text_area :adm_nome %>
+  </div>
+  <div class="field">
+    <%= f.label :adm_data_nasc %><br>
+    <%= f.date_select :adm_data_nasc %>
+  </div>
+  <div class="field">
+    <%= f.label :adm_endereco %><br>
+    <%= f.text_field :adm_endereco %>
+  </div>
+  <div class="field">
+    <%= f.label :adm_bairro %><br>
+    <%= f.text_field :adm_bairro %>
+  </div>
+  <div class="field">
+    <%= f.label :adm_numero %><br>
+    <%= f.text_field :adm_numero %>
+  </div>
+  <div class="field">
+    <%= f.label :adm_cidade %><br>
+    <%= f.text_field :adm_cidade %>
+  </div>
+  <div class="field">
+    <%= f.label :adm_complemento %><br>
+    <%= f.text_area :adm_complemento %>
+  </div>
+  <div class="field">
+    <%= f.label :adm_cep %><br>
+    <%= f.text_field :adm_cep %>
+  </div>
+  <div class="field">
+    <%= f.label :adm_email %><br>
+    <%= f.text_area :adm_email %>
+  </div>
+  <div class="field">
+    <%= f.label :adm_nome_inst %><br>
+    <%= f.text_field :adm_nome_inst %>
+  </div>
+  <div class="field">
+    <%= f.label :adm_login %><br>
+    <%= f.text_field :adm_login %>
+  </div>
+  <div class="field">
+    <%= f.label :adm_senha %><br>
+    <%= f.text_field :adm_senha %>
+  </div>
+  <div class="field">
+    <%= f.label :adm_codigo %><br>
+    <%= f.text_field :adm_codigo %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

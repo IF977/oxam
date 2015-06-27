@@ -1,0 +1,51 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Admins</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Adm nome</th>
+      <th>Adm data nasc</th>
+      <th>Adm endereco</th>
+      <th>Adm bairro</th>
+      <th>Adm numero</th>
+      <th>Adm cidade</th>
+      <th>Adm complemento</th>
+      <th>Adm cep</th>
+      <th>Adm email</th>
+      <th>Adm nome inst</th>
+      <th>Adm login</th>
+      <th>Adm senha</th>
+      <th>Adm codigo</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @admins.each do |admin| %>
+      <tr>
+        <td><%= admin.adm_nome %></td>
+        <td><%= admin.adm_data_nasc %></td>
+        <td><%= admin.adm_endereco %></td>
+        <td><%= admin.adm_bairro %></td>
+        <td><%= admin.adm_numero %></td>
+        <td><%= admin.adm_cidade %></td>
+        <td><%= admin.adm_complemento %></td>
+        <td><%= admin.adm_cep %></td>
+        <td><%= admin.adm_email %></td>
+        <td><%= admin.adm_nome_inst %></td>
+        <td><%= admin.adm_login %></td>
+        <td><%= admin.adm_senha %></td>
+        <td><%= admin.adm_codigo %></td>
+        <td><%= link_to 'Show', admin %></td>
+        <td><%= link_to 'Edit', edit_admin_path(admin) %></td>
+        <td><%= link_to 'Destroy', admin, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Admin', new_admin_path %>

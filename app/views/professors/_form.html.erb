@@ -1,0 +1,69 @@
+<%= form_for(@professor) do |f| %>
+  <% if @professor.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@professor.errors.count, "error") %> prohibited this professor from being saved:</h2>
+
+      <ul>
+      <% @professor.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :pf_nome %><br>
+    <%= f.text_area :pf_nome %>
+  </div>
+  <div class="field">
+    <%= f.label :pf_data_nasc %><br>
+    <%= f.date_select :pf_data_nasc %>
+  </div>
+  <div class="field">
+    <%= f.label :pf_endereco %><br>
+    <%= f.text_field :pf_endereco %>
+  </div>
+  <div class="field">
+    <%= f.label :pf_bairro %><br>
+    <%= f.text_field :pf_bairro %>
+  </div>
+  <div class="field">
+    <%= f.label :pf_numero %><br>
+    <%= f.text_field :pf_numero %>
+  </div>
+  <div class="field">
+    <%= f.label :pf_cidade %><br>
+    <%= f.text_field :pf_cidade %>
+  </div>
+  <div class="field">
+    <%= f.label :pf_complemento %><br>
+    <%= f.text_area :pf_complemento %>
+  </div>
+  <div class="field">
+    <%= f.label :pf_cep %><br>
+    <%= f.number_field :pf_cep %>
+  </div>
+  <div class="field">
+    <%= f.label :pf_email %><br>
+    <%= f.text_area :pf_email %>
+  </div>
+  <div class="field">
+    <%= f.label :pf_nome_inst %><br>
+    <%= f.text_field :pf_nome_inst %>
+  </div>
+  <div class="field">
+    <%= f.label :pf_login %><br>
+    <%= f.text_field :pf_login %>
+  </div>
+  <div class="field">
+    <%= f.label :pf_senha %><br>
+    <%= f.text_field :pf_senha %>
+  </div>
+  <div class="field">
+    <%= f.label :pf_siape %><br>
+    <%= f.text_field :pf_siape %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

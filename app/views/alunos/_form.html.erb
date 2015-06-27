@@ -1,0 +1,65 @@
+<%= form_for(@aluno) do |f| %>
+  <% if @aluno.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@aluno.errors.count, "error") %> prohibited this aluno from being saved:</h2>
+
+      <ul>
+      <% @aluno.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :p_nome %><br>
+    <%= f.text_area :p_nome %>
+  </div>
+  <div class="field">
+    <%= f.label :p_data_nasc %><br>
+    <%= f.date_select :p_data_nasc %>
+  </div>
+  <div class="field">
+    <%= f.label :p_endereco %><br>
+    <%= f.text_field :p_endereco %>
+  </div>
+  <div class="field">
+    <%= f.label :p_bairro %><br>
+    <%= f.text_field :p_bairro %>
+  </div>
+  <div class="field">
+    <%= f.label :p_numero %><br>
+    <%= f.text_field :p_numero %>
+  </div>
+  <div class="field">
+    <%= f.label :p_cidade %><br>
+    <%= f.text_field :p_cidade %>
+  </div>
+  <div class="field">
+    <%= f.label :p_complemento %><br>
+    <%= f.text_area :p_complemento %>
+  </div>
+  <div class="field">
+    <%= f.label :p_cep %><br>
+    <%= f.number_field :p_cep %>
+  </div>
+  <div class="field">
+    <%= f.label :p_email %><br>
+    <%= f.text_area :p_email %>
+  </div>
+  <div class="field">
+    <%= f.label :p_nome_inst %><br>
+    <%= f.text_field :p_nome_inst %>
+  </div>
+  <div class="field">
+    <%= f.label :p_login %><br>
+    <%= f.text_field :p_login %>
+  </div>
+  <div class="field">
+    <%= f.label :p_senha %><br>
+    <%= f.text_field :p_senha %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

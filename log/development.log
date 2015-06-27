@@ -1,0 +1,487 @@
+  [1m[36m (10.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (9.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateAlunos (20150627011246)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateAlunos (20150627011246)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateAlunos (20150627011246)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "alunos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "p_nome" text, "p_data_nasc" date, "p_endereco" varchar, "p_bairro" varchar, "p_numero" varchar, "p_cidade" varchar, "p_complemento" text, "p_cep" integer, "p_email" text, "p_nome_inst" varchar, "p_login" varchar, "p_senha" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150627011246"]]
+  [1m[36m (12.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "alunos" ("p_nome", "p_data_nasc", "p_endereco", "p_bairro", "p_numero", "p_cidade", "p_complemento", "p_cep", "p_email", "p_nome_inst", "p_login", "p_senha", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["p_nome", "Fulano"], ["p_data_nasc", "1999-11-29"], ["p_endereco", "Rua tal tal tal tal"], ["p_bairro", "Alameda dos Tals"], ["p_numero", "854"], ["p_cidade", "Talandia"], ["p_complemento", "Logo ali"], ["p_cep", 1234], ["p_email", "meu_email@email.com"], ["p_nome_inst", "Internato dos Nerds"], ["p_login", "Joãozin"], ["p_senha", "12345"], ["created_at", "2015-06-27 01:36:14.110390"], ["updated_at", "2015-06-27 01:36:14.110390"]]
+  [1m[35m (16.4ms)[0m  commit transaction
+
+
+Started GET "/" for 177.17.70.89 at 2015-06-27 01:39:01 +0000
+Cannot render console from 177.17.70.89! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 32ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 177.17.70.89 at 2015-06-27 01:39:11 +0000
+Cannot render console from 177.17.70.89! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "alunos" ("p_nome", "p_data_nasc", "p_endereco", "p_bairro", "p_numero", "p_cidade", "p_complemento", "p_cep", "p_email", "p_nome_inst", "p_login", "p_senha", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["p_nome", "Fulano"], ["p_data_nasc", "1999-11-29"], ["p_endereco", "Rua tal tal tal tal"], ["p_bairro", "Alameda dos Tals"], ["p_numero", "854"], ["p_cidade", "Talandia"], ["p_complemento", "Logo ali"], ["p_cep", 1234], ["p_email", "meu_email@email.com"], ["p_nome_inst", "Internato dos Nerds"], ["p_login", "Joãozin"], ["p_senha", "12345"], ["created_at", "2015-06-27 01:41:52.439092"], ["updated_at", "2015-06-27 01:41:52.439092"]]
+  [1m[35m (12.9ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateProfessors (20150627014509)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateProfessors (20150627014509)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateProfessors (20150627014509)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "professors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "pf_nome" text, "pf_data_nasc" date, "pf_endereco" varchar, "pf_bairro" varchar, "pf_numero" varchar, "pf_cidade" varchar, "pf_complemento" text, "pf_cep" integer, "pf_email" text, "pf_nome_inst" varchar, "pf_login" varchar, "pf_senha" varchar, "pf_siape" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150627014509"]]
+  [1m[36m (12.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "professors" ("pf_nome", "pf_data_nasc", "pf_endereco", "pf_bairro", "pf_numero", "pf_cidade", "pf_complemento", "pf_cep", "pf_email", "pf_nome_inst", "pf_login", "pf_senha", "pf_siape", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["pf_nome", "Ciclano"], ["pf_data_nasc", "1967-06-04"], ["pf_endereco", "Rua tal tal tal tal"], ["pf_bairro", "Alameda dos Tals"], ["pf_numero", "123"], ["pf_cidade", "Talandia"], ["pf_complemento", "bem aqui"], ["pf_cep", 1234], ["pf_email", "pf_meu_email@email.com"], ["pf_nome_inst", "Internato dos Nerds"], ["pf_login", "Ze"], ["pf_senha", "54321"], ["pf_siape", "756433688"], ["created_at", "2015-06-27 01:50:09.296138"], ["updated_at", "2015-06-27 01:50:09.296138"]]
+  [1m[35m (12.5ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateAdmins (20150627020038)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.9ms)[0m  [1mCREATE TABLE "admins" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "adm_nome" text, "adm_data_nasc" date, "adm_endereco" varchar, "adm_bairro" varchar, "adm_numero" varchar, "adm_cidade" varchar, "adm_complemento" text, "adm_cep" varchar, "adm_email" text, "adm_nome_inst" varchar, "adm_login" varchar, "adm_senha" varchar, "adm_codigo" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150627020038"]]
+  [1m[36m (11.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "professors" ("pf_nome", "pf_data_nasc", "pf_endereco", "pf_bairro", "pf_numero", "pf_cidade", "pf_complemento", "pf_cep", "pf_email", "pf_nome_inst", "pf_login", "pf_senha", "pf_siape", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["pf_nome", "Ciclano"], ["pf_data_nasc", "1967-06-04"], ["pf_endereco", "Rua tal tal tal tal"], ["pf_bairro", "Alameda dos Tals"], ["pf_numero", "123"], ["pf_cidade", "Talandia"], ["pf_complemento", "bem aqui"], ["pf_cep", 1234], ["pf_email", "pf_meu_email@email.com"], ["pf_nome_inst", "Internato dos Nerds"], ["pf_login", "Ze"], ["pf_senha", "54321"], ["pf_siape", "756433688"], ["created_at", "2015-06-27 02:08:17.980137"], ["updated_at", "2015-06-27 02:08:17.980137"]]
+  [1m[35m (12.8ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "admins" ("adm_nome", "adm_data_nasc", "adm_endereco", "adm_bairro", "adm_numero", "adm_cidade", "adm_complemento", "adm_cep", "adm_email", "adm_nome_inst", "adm_login", "adm_senha", "adm_codigo", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["adm_nome", "Admin"], ["adm_data_nasc", "1991-01-01"], ["adm_endereco", "Rua adms"], ["adm_bairro", "Alameda dos Adms"], ["adm_numero", "123"], ["adm_cidade", "Admlandia"], ["adm_complemento", "bem aqui"], ["adm_cep", "12345678910"], ["adm_email", "adm_mail@estude.com"], ["adm_nome_inst", ""], ["adm_login", "adm"], ["adm_senha", "estudadm"], ["adm_codigo", "12345"], ["created_at", "2015-06-27 02:08:34.048046"], ["updated_at", "2015-06-27 02:08:34.048046"]]
+  [1m[35m (15.0ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateQuests (20150627022235)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.7ms)[0m  [1mCREATE TABLE "quests" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "quest" text, "quest_alternativas" text, "quest_resp" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150627022235"]]
+  [1m[36m (10.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateQuests (20150627024600)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "quests" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "quest_enum" text, "quest_alternativas" text, "quest_resp" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+SQLite3::SQLException: table "quests" already exists: CREATE TABLE "quests" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "quest_enum" text, "quest_alternativas" text, "quest_resp" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (11.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (9.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateAlunos (20150627011246)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "alunos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "p_nome" text, "p_data_nasc" date, "p_endereco" varchar, "p_bairro" varchar, "p_numero" varchar, "p_cidade" varchar, "p_complemento" text, "p_cep" varchar, "p_email" text, "p_nome_inst" varchar, "p_login" varchar, "p_senha" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150627011246"]]
+  [1m[35m (9.6ms)[0m  commit transaction
+Migrating to CreateProfessors (20150627014509)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "professors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "pf_nome" text, "pf_data_nasc" date, "pf_endereco" varchar, "pf_bairro" varchar, "pf_numero" varchar, "pf_cidade" varchar, "pf_complemento" text, "pf_cep" integer, "pf_email" text, "pf_nome_inst" varchar, "pf_login" varchar, "pf_senha" varchar, "pf_siape" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150627014509"]]
+  [1m[35m (8.8ms)[0m  commit transaction
+Migrating to CreateAdmins (20150627020038)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "admins" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "adm_nome" text, "adm_data_nasc" date, "adm_endereco" varchar, "adm_bairro" varchar, "adm_numero" varchar, "adm_cidade" varchar, "adm_complemento" text, "adm_cep" varchar, "adm_email" text, "adm_nome_inst" varchar, "adm_login" varchar, "adm_senha" varchar, "adm_codigo" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150627020038"]]
+  [1m[35m (9.1ms)[0m  commit transaction
+Migrating to CreateQuests (20150627024600)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "quests" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "quest_enum" text, "quest_alternativas" text, "quest_resp" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150627024600"]]
+  [1m[35m (9.0ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "alunos" ("p_nome", "p_data_nasc", "p_endereco", "p_bairro", "p_numero", "p_cidade", "p_complemento", "p_cep", "p_email", "p_nome_inst", "p_login", "p_senha", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["p_nome", "Fulano"], ["p_data_nasc", "1999-11-29"], ["p_endereco", "Rua tal tal tal tal"], ["p_bairro", "Alameda dos Tals"], ["p_numero", "854"], ["p_cidade", "Talandia"], ["p_complemento", "Logo ali"], ["p_cep", "1234"], ["p_email", "meu_email@email.com"], ["p_nome_inst", "Internato dos Nerds"], ["p_login", "Joãozin"], ["p_senha", "12345"], ["created_at", "2015-06-27 02:56:21.249838"], ["updated_at", "2015-06-27 02:56:21.249838"]]
+  [1m[35m (12.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "professors" ("pf_nome", "pf_data_nasc", "pf_endereco", "pf_bairro", "pf_numero", "pf_cidade", "pf_complemento", "pf_cep", "pf_email", "pf_nome_inst", "pf_login", "pf_senha", "pf_siape", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["pf_nome", "Ciclano"], ["pf_data_nasc", "1967-06-04"], ["pf_endereco", "Rua tal tal tal tal"], ["pf_bairro", "Alameda dos Tals"], ["pf_numero", "123"], ["pf_cidade", "Talandia"], ["pf_complemento", "bem aqui"], ["pf_cep", 1234], ["pf_email", "pf_meu_email@email.com"], ["pf_nome_inst", "Internato dos Nerds"], ["pf_login", "Ze"], ["pf_senha", "54321"], ["pf_siape", "756433688"], ["created_at", "2015-06-27 02:56:21.289410"], ["updated_at", "2015-06-27 02:56:21.289410"]]
+  [1m[36m (10.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "admins" ("adm_nome", "adm_data_nasc", "adm_endereco", "adm_bairro", "adm_numero", "adm_cidade", "adm_complemento", "adm_cep", "adm_email", "adm_nome_inst", "adm_login", "adm_senha", "adm_codigo", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["adm_nome", "Admin"], ["adm_data_nasc", "1991-01-01"], ["adm_endereco", "Rua adms"], ["adm_bairro", "Alameda dos Adms"], ["adm_numero", "123"], ["adm_cidade", "Admlandia"], ["adm_complemento", "bem aqui"], ["adm_cep", "12345678910"], ["adm_email", "adm_mail@estude.com"], ["adm_nome_inst", ""], ["adm_login", "adm"], ["adm_senha", "estudadm"], ["adm_codigo", "12345"], ["created_at", "2015-06-27 02:56:21.318768"], ["updated_at", "2015-06-27 02:56:21.318768"]]
+  [1m[35m (10.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "quests" ("quest_enum", "quest_alternativas", "quest_resp", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["quest_enum", "teste pAJFNJNVJKAFJAVKJSDBLVKHSDBSLBAKSDNGDSFKJVNLJKDBGLKANGLKJBRBAKFVBKHSVNALKJBELNAÇWJNAJEÇLVNÇLJNLN"], ["quest_alternativas", "[\"-asdv\", \"-asdvwef\", \"-gdfvesvr\", \"-dvarevsdb\", \"-averfsd\"]"], ["quest_resp", "averfsd"], ["created_at", "2015-06-27 02:56:21.339751"], ["updated_at", "2015-06-27 02:56:21.339751"]]
+  [1m[36m (9.6ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/" for 177.17.70.89 at 2015-06-27 03:05:24 +0000
+Cannot render console from 177.17.70.89! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (3.9ms)
+Completed 200 OK in 30ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 177.17.70.89 at 2015-06-27 03:09:09 +0000
+Cannot render console from 177.17.70.89! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 191.179.110.170 at 2015-06-27 03:09:20 +0000
+Cannot render console from 191.179.110.170! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 69.171.230.119 at 2015-06-27 03:09:21 +0000
+Cannot render console from 69.171.230.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as */*
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (0.9ms)
+Completed 200 OK in 15ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 191.179.110.170 at 2015-06-27 03:09:24 +0000
+Cannot render console from 191.179.110.170! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/alunos" for 191.179.110.170 at 2015-06-27 03:09:29 +0000
+Cannot render console from 191.179.110.170! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlunosController#index as HTML
+  [1m[35mAluno Load (0.3ms)[0m  SELECT "alunos".* FROM "alunos"
+  Rendered alunos/index.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 3588ms (Views: 3584.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/alunos.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 191.179.110.170 at 2015-06-27 03:09:33 +0000
+Cannot render console from 191.179.110.170! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/admins.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 191.179.110.170 at 2015-06-27 03:09:33 +0000
+Cannot render console from 191.179.110.170! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/professors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 191.179.110.170 at 2015-06-27 03:09:33 +0000
+Cannot render console from 191.179.110.170! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 191.179.110.170 at 2015-06-27 03:09:33 +0000
+Cannot render console from 191.179.110.170! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds.self-ade00adcde1249df4241695c2aae67a1990b158fa2c1ae5aedad5425292b1a62.css?body=1" for 191.179.110.170 at 2015-06-27 03:09:33 +0000
+Cannot render console from 191.179.110.170! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 191.179.110.170 at 2015-06-27 03:09:33 +0000
+Cannot render console from 191.179.110.170! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 191.179.110.170 at 2015-06-27 03:09:33 +0000
+Cannot render console from 191.179.110.170! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 191.179.110.170 at 2015-06-27 03:09:33 +0000
+Cannot render console from 191.179.110.170! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 191.179.110.170 at 2015-06-27 03:09:33 +0000
+Cannot render console from 191.179.110.170! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/admins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 191.179.110.170 at 2015-06-27 03:09:33 +0000
+Cannot render console from 191.179.110.170! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/alunos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 191.179.110.170 at 2015-06-27 03:09:33 +0000
+Cannot render console from 191.179.110.170! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 191.179.110.170 at 2015-06-27 03:09:34 +0000
+Cannot render console from 191.179.110.170! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quests.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 191.179.110.170 at 2015-06-27 03:09:34 +0000
+Cannot render console from 191.179.110.170! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/professors.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 191.179.110.170 at 2015-06-27 03:09:34 +0000
+Cannot render console from 191.179.110.170! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/alunos" for 69.171.230.118 at 2015-06-27 03:09:40 +0000
+Cannot render console from 69.171.230.118! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlunosController#index as */*
+  [1m[36mAluno Load (0.4ms)[0m  [1mSELECT "alunos".* FROM "alunos"[0m
+  Rendered alunos/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 124ms (Views: 123.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/alunos/new" for 191.179.110.170 at 2015-06-27 03:09:53 +0000
+Cannot render console from 191.179.110.170! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlunosController#new as HTML
+  Rendered alunos/_form.html.erb (80.8ms)
+  Rendered alunos/new.html.erb within layouts/application (87.4ms)
+Completed 200 OK in 299ms (Views: 298.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/alunos" for 177.17.70.89 at 2015-06-27 03:10:47 +0000
+Cannot render console from 177.17.70.89! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlunosController#index as HTML
+  [1m[35mAluno Load (0.3ms)[0m  SELECT "alunos".* FROM "alunos"
+  Rendered alunos/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 157ms (Views: 155.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/admins.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 177.17.70.89 at 2015-06-27 03:10:47 +0000
+Cannot render console from 177.17.70.89! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/alunos.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 177.17.70.89 at 2015-06-27 03:10:47 +0000
+Cannot render console from 177.17.70.89! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/professors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 177.17.70.89 at 2015-06-27 03:10:48 +0000
+Cannot render console from 177.17.70.89! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 177.17.70.89 at 2015-06-27 03:10:48 +0000
+Cannot render console from 177.17.70.89! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds.self-ade00adcde1249df4241695c2aae67a1990b158fa2c1ae5aedad5425292b1a62.css?body=1" for 177.17.70.89 at 2015-06-27 03:10:48 +0000
+Cannot render console from 177.17.70.89! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 177.17.70.89 at 2015-06-27 03:10:48 +0000
+Cannot render console from 177.17.70.89! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 177.17.70.89 at 2015-06-27 03:10:48 +0000
+Cannot render console from 177.17.70.89! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 177.17.70.89 at 2015-06-27 03:10:48 +0000
+Cannot render console from 177.17.70.89! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 177.17.70.89 at 2015-06-27 03:10:48 +0000
+Cannot render console from 177.17.70.89! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/admins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 177.17.70.89 at 2015-06-27 03:10:48 +0000
+Cannot render console from 177.17.70.89! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/alunos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 177.17.70.89 at 2015-06-27 03:10:48 +0000
+Cannot render console from 177.17.70.89! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/professors.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 177.17.70.89 at 2015-06-27 03:10:48 +0000
+Cannot render console from 177.17.70.89! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quests.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 177.17.70.89 at 2015-06-27 03:10:49 +0000
+Cannot render console from 177.17.70.89! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 177.17.70.89 at 2015-06-27 03:10:49 +0000
+Cannot render console from 177.17.70.89! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/alunos/new" for 177.17.70.89 at 2015-06-27 03:11:10 +0000
+Cannot render console from 177.17.70.89! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlunosController#new as HTML
+  Rendered alunos/_form.html.erb (12.7ms)
+  Rendered alunos/new.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 115ms (Views: 113.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/alunos/new" for 69.171.230.118 at 2015-06-27 03:11:21 +0000
+Cannot render console from 69.171.230.118! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlunosController#new as */*
+  Rendered alunos/_form.html.erb (17.0ms)
+  Rendered alunos/new.html.erb within layouts/application (26.1ms)
+Completed 200 OK in 125ms (Views: 124.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/alunos" for 177.17.70.89 at 2015-06-27 03:14:19 +0000
+Cannot render console from 177.17.70.89! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlunosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RoqVLmhkz0LjYdmKa01WdC4pqUAJV7KrwfD8j0gqR9zwY3M5QHCtk+ntseWvc6vBP/dr2mNcs5cIXo/RWQ1Wng==", "aluno"=>{"p_nome"=>"João", "p_data_nasc(1i)"=>"2010", "p_data_nasc(2i)"=>"3", "p_data_nasc(3i)"=>"11", "p_endereco"=>"Rua 1234", "p_bairro"=>"Rio Doce", "p_numero"=>"123", "p_cidade"=>"Olinda", "p_complemento"=>"Ao Lado do bar do zezinho", "p_cep"=>"53140123", "p_email"=>"jaun_dubrega@gmail.com.rd", "p_nome_inst"=>"Colegio Patricia Costa", "p_login"=>"jao_123", "p_senha"=>"12345"}, "commit"=>"Create Aluno"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "alunos" ("p_nome", "p_endereco", "p_bairro", "p_numero", "p_cidade", "p_complemento", "p_cep", "p_email", "p_nome_inst", "p_login", "p_senha", "p_data_nasc", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["p_nome", "João"], ["p_endereco", "Rua 1234"], ["p_bairro", "Rio Doce"], ["p_numero", "123"], ["p_cidade", "Olinda"], ["p_complemento", "Ao Lado do bar do zezinho"], ["p_cep", "53140123"], ["p_email", "jaun_dubrega@gmail.com.rd"], ["p_nome_inst", "Colegio Patricia Costa"], ["p_login", "jao_123"], ["p_senha", "12345"], ["p_data_nasc", "2010-03-11"], ["created_at", "2015-06-27 03:14:19.838869"], ["updated_at", "2015-06-27 03:14:19.838869"]]
+  [1m[36m (12.4ms)[0m  [1mcommit transaction[0m
+Redirected to https://oxam-desenv-ygoleite.c9.io/alunos/2
+Completed 302 Found in 29ms (ActiveRecord: 13.3ms)
+
+
+Started GET "/alunos/2" for 177.17.70.89 at 2015-06-27 03:14:20 +0000
+Cannot render console from 177.17.70.89! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlunosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mAluno Load (0.4ms)[0m  SELECT  "alunos".* FROM "alunos" WHERE "alunos"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered alunos/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 164ms (Views: 150.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/alunos/" for 177.17.70.89 at 2015-06-27 03:14:29 +0000
+Cannot render console from 177.17.70.89! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlunosController#index as HTML
+  [1m[36mAluno Load (0.3ms)[0m  [1mSELECT "alunos".* FROM "alunos"[0m
+  Rendered alunos/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 133ms (Views: 131.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/alunos/" for 69.171.230.113 at 2015-06-27 03:14:39 +0000
+Cannot render console from 69.171.230.113! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlunosController#index as */*
+  [1m[35mAluno Load (0.4ms)[0m  SELECT "alunos".* FROM "alunos"
+  Rendered alunos/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 113ms (Views: 111.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/alunos/" for 191.33.13.143 at 2015-06-27 03:14:48 +0000
+Cannot render console from 191.33.13.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlunosController#index as HTML
+  [1m[36mAluno Load (0.3ms)[0m  [1mSELECT "alunos".* FROM "alunos"[0m
+  Rendered alunos/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 162ms (Views: 160.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/admins.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 191.33.13.143 at 2015-06-27 03:14:48 +0000
+Cannot render console from 191.33.13.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/alunos.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 191.33.13.143 at 2015-06-27 03:14:48 +0000
+Cannot render console from 191.33.13.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 191.33.13.143 at 2015-06-27 03:14:49 +0000
+Cannot render console from 191.33.13.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds.self-ade00adcde1249df4241695c2aae67a1990b158fa2c1ae5aedad5425292b1a62.css?body=1" for 191.33.13.143 at 2015-06-27 03:14:49 +0000
+Cannot render console from 191.33.13.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 191.33.13.143 at 2015-06-27 03:14:49 +0000
+Cannot render console from 191.33.13.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/professors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 191.33.13.143 at 2015-06-27 03:14:49 +0000
+Cannot render console from 191.33.13.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/admins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 191.33.13.143 at 2015-06-27 03:14:49 +0000
+Cannot render console from 191.33.13.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 191.33.13.143 at 2015-06-27 03:14:49 +0000
+Cannot render console from 191.33.13.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/alunos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 191.33.13.143 at 2015-06-27 03:14:49 +0000
+Cannot render console from 191.33.13.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 191.33.13.143 at 2015-06-27 03:14:49 +0000
+Cannot render console from 191.33.13.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 191.33.13.143 at 2015-06-27 03:14:49 +0000
+Cannot render console from 191.33.13.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/professors.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 191.33.13.143 at 2015-06-27 03:14:49 +0000
+Cannot render console from 191.33.13.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quests.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 191.33.13.143 at 2015-06-27 03:14:49 +0000
+Cannot render console from 191.33.13.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 191.33.13.143 at 2015-06-27 03:14:49 +0000
+Cannot render console from 191.33.13.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/alunos/delete" for 177.17.70.89 at 2015-06-27 03:14:56 +0000
+Cannot render console from 177.17.70.89! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlunosController#show as HTML
+  Parameters: {"id"=>"delete"}
+  [1m[35mAluno Load (0.2ms)[0m  SELECT  "alunos".* FROM "alunos" WHERE "alunos"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 2ms (ActiveRecord: 0.2ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Aluno with 'id'=delete):
+  app/controllers/alunos_controller.rb:67:in `set_aluno'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (197.3ms)
+
+
+Started GET "/alunos/remove" for 177.17.70.89 at 2015-06-27 03:15:04 +0000
+Cannot render console from 177.17.70.89! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlunosController#show as HTML
+  Parameters: {"id"=>"remove"}
+  [1m[36mAluno Load (0.2ms)[0m  [1mSELECT  "alunos".* FROM "alunos" WHERE "alunos"."id" = ? LIMIT 1[0m  [["id", 0]]
+Completed 404 Not Found in 2ms (ActiveRecord: 0.2ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Aluno with 'id'=remove):
+  app/controllers/alunos_controller.rb:67:in `set_aluno'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (190.4ms)
