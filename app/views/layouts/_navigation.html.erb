@@ -1,0 +1,54 @@
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul class="nav metismenu" id="side-menu">
+            <li class="nav-header">
+                <div class="dropdown profile-element">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                        <span class="clear">
+                            <span class="block m-t-xs">
+                                <strong class="font-bold">Example user</strong>
+                            </span> <span class="text-muted text-xs block">Example menu <b class="caret"></b></span>
+                        </span>
+                    </a>
+                    <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                        <li><a href="#">Logout</a></li>
+                    </ul>
+                </div>
+                <div class="logo-element">
+                    IN+
+                </div>
+            </li>
+            <!--<li class="<%= 'active' if current_page?('/') %>">-->
+            <!--    <%= link_to "/" do %>-->
+            <!--    <span class="nav-label">Início</span>-->
+            <!--    <% end %>-->
+            <!--</li>-->
+            <li class="<%= 'active' if current_page?('/home/minor') %>">
+                <%= link_to "/home/minor" do %>
+                <span class="nav-label">Infos</span>
+                <% end %>
+            </li>
+            <li class="<%= 'active' if current_page?('/alunos') %>">
+                <%= link_to "/alunos" do %>
+                <span class="nav-label">Alunos</span>
+                <% end %>
+            </li>
+            <li class="<%= 'active' if current_page?('/professors') %>">
+                <%= link_to "/professors" do %>
+                <span class="nav-label">Professores</span>
+                <% end %>
+            </li>
+            <li class="<%= 'active' if current_page?('/quests') %>">
+                <%= link_to "/quests" do %>
+                <span class="nav-label">Quests</span>
+                <% end %>
+            </li>
+            <li class="<%= 'active' if current_page?('/admins') %>">
+                <%= link_to "/admins" do %>
+                <span class="nav-label">Admins</span>
+                <% end %>
+            </li>
+        </ul>
+
+    </div>
+</nav>
