@@ -1,8 +1,16 @@
 <p id="notice"><%= notice %></p>
+<p><a class="btn btn-primary" href="/quests/new">Nova Questão</a></p><br>
 
-<h1>Listing Quests</h1>
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>Questões</h5>
 
-<table>
+            </div>
+            <div class="ibox-content">
+
+                <table class="table">
   <thead>
     <tr>
       <th>Quest enum</th>
@@ -16,16 +24,23 @@
     <% @quests.each do |quest| %>
       <tr>
         <td><%= quest.quest_enum %></td>
-        <td><%= quest.quest_alternativas %></td>
-        <td><%= quest.quest_resp %></td>
-        <td><%= link_to 'Show', quest %></td>
-        <td><%= link_to 'Edit', edit_quest_path(quest) %></td>
-        <td><%= link_to 'Destroy', quest, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= simple_format(quest.quest_alternativas) %></td>
+        <td><%= simple_format(quest.quest_resp) %></td>
+        <td><%= link_to 'Exibir', quest %></td>
+        <td><%= link_to 'Editar', edit_quest_path(quest) %></td>
+        <td><%= link_to 'Excluir', quest, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
 </table>
 
-<br>
+            </div>
+        </div>
+    </div>
 
-<%= link_to 'New Quest', new_quest_path %>
+</div>
+
+
+<!--<br>-->
+
+<!--<%= link_to 'New Quest', new_quest_path %>-->

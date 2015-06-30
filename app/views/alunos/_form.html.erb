@@ -11,52 +11,65 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :p_nome %><br>
+  <div class="form-group">
+    <%= f.label :Nome %><br>
     <%= f.text_area :p_nome %>
   </div>
   <div class="field">
-    <%= f.label :p_data_nasc %><br>
+    <%= f.label :"Data de Nascimento" %><br>
     <%= f.date_select :p_data_nasc %>
   </div>
   <div class="field">
-    <%= f.label :p_endereco %><br>
+    <%= f.label :"Endereço" %><br>
     <%= f.text_field :p_endereco %>
   </div>
   <div class="field">
-    <%= f.label :p_bairro %><br>
+    <%= f.label :Bairro %><br>
     <%= f.text_field :p_bairro %>
   </div>
   <div class="field">
-    <%= f.label :p_numero %><br>
+    <%= f.label :Numero %><br>
     <%= f.text_field :p_numero %>
   </div>
   <div class="field">
-    <%= f.label :p_cidade %><br>
+    <%= f.label :Cidade %><br>
     <%= f.text_field :p_cidade %>
   </div>
   <div class="field">
-    <%= f.label :p_complemento %><br>
+    <%= f.label :Complemento %><br>
     <%= f.text_area :p_complemento %>
   </div>
   <div class="field">
-    <%= f.label :p_cep %><br>
+    <%= f.label :CEP %><br>
     <%= f.number_field :p_cep %>
   </div>
-  <div class="field">
-    <%= f.label :p_email %><br>
+  <div class="input-group">
+    <%= f.label :Email %><br>
     <%= f.text_area :p_email %>
   </div>
+  
+  <!--
+ <div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">@</span>
+  <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+</div>
+
+</div>
+  
+  -->
+  
+  
+  
   <div class="field">
-    <%= f.label :p_nome_inst %><br>
+    <%= f.label :"Nome da Instituição" %><br>
     <%= f.text_field :p_nome_inst %>
   </div>
   <div class="field">
-    <%= f.label :p_login %><br>
+    <%= f.label :Login %><br>
     <%= f.text_field :p_login %>
   </div>
   <div class="field">
-    <%= f.label :p_senha %><br>
+    <%= f.label :Senha %><br>
     <%= f.text_field :p_senha %>
   </div>
   <div class="actions">

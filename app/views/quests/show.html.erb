@@ -1,19 +1,73 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Quest enum:</strong>
-  <%= @quest.quest_enum %>
-</p>
 
-<p>
-  <strong>Quest alternativas:</strong>
-  <%= @quest.quest_alternativas %>
-</p>
+<div class="wrapper wrapper-content  animated fadeInRight article">
+    <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+            <div class="ibox">
+                <div class="ibox-content">
 
-<p>
-  <strong>Quest resp:</strong>
-  <%= @quest.quest_resp %>
-</p>
+<div class="pull-right">
 
-<%= link_to 'Edit', edit_quest_path(@quest) %> |
-<%= link_to 'Back', quests_path %>
+                                <button class="btn btn-white btn-xs" type="button"><%= link_to 'Editar', edit_quest_path(@quest) %></button>
+                                <button class="btn btn-white btn-xs" type="button"><%= link_to 'Voltar', quests_path %></button>
+                            </div>
+                            
+                    <div class="text-center article-title" style="margin-bottom:50px;">
+
+                        <h1 style="font-size:18px;">
+                                   <%= @quest.quest_enum %>
+                                </h1>
+                    </div>
+
+                    <p>
+                     <%=  simple_format(@quest.quest_alternativas) %>
+                      </p>
+                    <hr />
+                    <p> <strong>Resposta:</strong><br> <%= simple_format(@quest.quest_resp) %> </p>
+
+
+
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5>Tags:</h5>
+                            <button class="btn btn-primary btn-xs" type="button">ENEM</button>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="small text-right">
+                                <h5>Estatisticas:</h5>
+                                <div> <i class="fa fa-comments-o"> </i> 2 comentários </div>
+                                <i class="fa fa-eye"> </i> 20 visualizações
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+<!--<p>-->
+<!--  <strong>Quest enum:</strong>-->
+<!--  <%= @quest.quest_enum %>-->
+<!--</p>-->
+
+<!--<p>-->
+<!--  <strong>Quest alternativas:</strong>-->
+<!--  <%= @quest.quest_alternativas %>-->
+<!--</p>-->
+
+<!--<p>-->
+<!--  <strong>Quest resp:</strong>-->
+<!--  <%= @quest.quest_resp %>-->
+<!--</p>-->
+
+
